@@ -113,7 +113,7 @@ def plot_tree_interactive(X, y):
         visualize_tree(clf, X, y)
 
     from IPython.html.widgets import interact
-    return interact(interactive_tree, depth=[1, 5])
+    return interact(interactive_tree, depth=[1, 2, 3, 4, 5])
 
 
 def plot_kmeans_interactive(min_clusters=1, max_clusters=6):
